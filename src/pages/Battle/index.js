@@ -24,7 +24,7 @@ import { playersData } from "../../playersData";
 
 const Index = () => {
   const { id } = useParams();
-  const playerLoged = 1;
+  const playerLoged = 0;
   const player = playersData[playerLoged];
   const friend = playersData[playerLoged].friends[id];
   const [checkbox1, setCheckbox1] = useState(false);
