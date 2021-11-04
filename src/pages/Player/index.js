@@ -27,7 +27,7 @@ import {
 import PlayerStatus from "../../components/PlayerStatus";
 import { playersData } from "../../playersData";
 const Player = () => {
-  const playerLoged = 1;
+  const playerLoged = 0;
   const player = playersData[playerLoged];
   return (
     <Container>
