@@ -21,7 +21,7 @@ import {
   PlayerFriendsBox,
 } from "./PlayerPlayers";
 const Index = () => {
-  const playerLoged = 1;
+  const playerLoged = 0;
   const player = playersData[playerLoged];
 
   return (
